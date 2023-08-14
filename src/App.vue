@@ -72,7 +72,7 @@ export default {
             }
             
           })
-          console.log(headers['x-total-count'])
+          // console.log(headers['x-total-count'])
           // this.totalPages = Math.ceil(headers['x-total.count']/ this.limit)
           this.posts = postsData
           console.log(postsData)
